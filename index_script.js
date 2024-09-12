@@ -1,5 +1,5 @@
-function showmessage(){
-    alert('Hello World');
+function showMessage() {
+    alert('Hello World!');
 }
 
-document.getElementById('helloButton').addeventlistener('click', showmessage);
+document.getElementById('helloButton').addEventListener('click', showMessage);
