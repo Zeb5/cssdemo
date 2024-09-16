@@ -8,6 +8,17 @@ h1{
     font-size: 50px;
 }
 
+h2{
+    text-align: left;
+    font-size: 30px;
+}
+
+.words{
+    text-align: left;
+    color: rgb(59, 45, 95);
+    background-color: aquamarine;
+}
+
 button {
     padding: 10px 20px;
     font-size: 16px;
@@ -24,3 +35,7 @@ button {
     outline: none;
 }
 
+.button_center{
+    display: flex;
+    justify-content: center;
+}
