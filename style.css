@@ -3,6 +3,10 @@ body{
     background-color: lightblue;
 }
 
+hr{
+    border: 2px solid black; 
+}
+
 h1{
     text-align: center;
     font-size: 50px;
