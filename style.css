@@ -58,6 +58,10 @@ button {
     border: none;
     outline: none;
 }
+button:hover {
+    transform: scale(1.05) rotate(360deg); /* Scale and rotate the button on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Increase the size of the shadow on hover */
+}
 .button_center{
     display: flex;
     justify-content: center;
